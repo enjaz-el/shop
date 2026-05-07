@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>إنجاز | لطلاب المدارس والجامعات</title>
+    <title>إنجاز | للخدمات الالكترونية والأكاديمية</title>
     <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;700;800;900&display=swap" rel="stylesheet">
     <style>
         :root {
@@ -253,6 +253,24 @@
         .footer-divider { border: none; border-top: 1px solid rgba(255,255,255,0.1); margin: 20px 0; }
         .footer-bottom { font-size: 0.78em; color: rgba(255,255,255,0.35); }
         .footer-bottom a { color: var(--green-light); text-decoration: none; }
+        .footer-social { display: flex; justify-content: center; gap: 16px; margin: 20px 0; flex-wrap: wrap; }
+        .social-btn {
+            display: inline-flex; align-items: center; gap: 8px;
+            padding: 10px 20px; border-radius: 50px;
+            text-decoration: none; font-weight: 700; font-size: 0.88em;
+            transition: all 0.3s;
+        }
+        .social-btn.x-btn { background: #000; color: white; border: 1px solid rgba(255,255,255,0.2); }
+        .social-btn.x-btn:hover { background: #333; transform: translateY(-2px); }
+        .social-btn.tiktok-btn { background: linear-gradient(135deg, #010101, #69C9D0); color: white; }
+        .social-btn.tiktok-btn:hover { opacity: 0.85; transform: translateY(-2px); }
+        .license-badge {
+            display: inline-flex; align-items: center; gap: 8px;
+            background: rgba(255,255,255,0.07); border: 1px solid rgba(255,255,255,0.15);
+            padding: 8px 18px; border-radius: 8px; font-size: 0.82em;
+            color: rgba(255,255,255,0.7); margin-bottom: 10px;
+        }
+        .license-badge strong { color: var(--gold); }
         @media (max-width: 600px) {
             header { padding: 15px 20px; }
             .hero { padding: 70px 20px 90px; }
@@ -268,22 +286,22 @@
     <header>
         <div class="logo">
             <div class="logo-name">NR <span>إنجاز</span></div>
-            <div class="logo-sub">لطلاب المدارس والجامعات</div>
+            <div class="logo-sub">للخدمات الإلكترونية والأكاديمية</div>
         </div>
         <a href="https://wa.me/966573730447" target="_blank" rel="noopener noreferrer" class="header-btn">🚀 اطلب خدمتك</a>
     </header>
 
     <section class="hero">
-        <div class="hero-badge">✦ منصة أكاديمية متخصصة</div>
+        <div class="hero-badge">✦ منصة إلكترونية وأكاديمية متخصصة</div>
         <h2>ننجز لك مهامك<br><span class="highlight">باحترافية عالية</span></h2>
-        <p>منصة متكاملة لخدمة طلاب المدارس والجامعات، نهدف لتسهيل مسيرتكم الدراسية بجودة وإتقان.</p>
+        <p>منصة متكاملة مهما كانت الخدمة التي تبحث عنها , احنا هنا عشان نسهلها لك .</p>
         <div class="hero-cta">
             <a href="https://wa.me/966573730447" target="_blank" rel="noopener noreferrer">💬 تواصل معنا الآن عبر واتساب</a>
         </div>
         <div class="hero-stats">
             <div class="stat-item">
                 <span class="stat-num">+50</span>
-                <div class="stat-label">طالب استفاد</div>
+                <div class="stat-label">عميل استفاد</div>
             </div>
             <div class="stat-divider"></div>
             <div class="stat-item">
@@ -292,7 +310,7 @@
             </div>
             <div class="stat-divider"></div>
             <div class="stat-item">
-                <span class="stat-num">100%</span>
+                <span class="stat-num">98%</span>
                 <div class="stat-label">رضا العملاء</div>
             </div>
         </div>
@@ -307,9 +325,9 @@
     <section class="services">
         <div class="section-label">ما نقدمه</div>
         <h2 class="section-title">خدماتنا الإلكترونية</h2>
-        <p class="section-sub">نوفر لك كل ما تحتاجه لإنجاز مهامك الأكاديمية بأعلى مستوى من الجودة والاحترافية.</p>
+        <p class="section-sub">نساعدك في إنجاز مهامك اليومية من واجبات ومشاريع، ومعاملات حكومية، وخدمات إلكترونية متنوعة.</p>
         <div class="cards">
-            <div class="card"><span class="card-icon">📄</span><h4>خدمات الكترونية </h4><p>جميع الخدمات الالكترونية </p></div>
+            <div class="card"><span class="card-icon">📄</span><h4>خدمات الكترونية </h4><p>خدماتك الإلكترونية بين يديك</p></div>
             <div class="card"><span class="card-icon">🎨</span><h4>عروض تقديمية</h4><p>تصميم عروض بوربوينت احترافية ومميزة تترك انطباعاً رائعاً</p></div>
             <div class="card"><span class="card-icon">📚</span><h4>بحوث ومشاريع</h4><p>إعداد شامل وموثوق للبحوث والمشاريع الأكاديمية</p></div>
             <div class="card"><span class="card-icon">✏️</span><h4>حل واجبات</h4><p>دعم وحل متكامل للواجبات والتقارير الدراسية</p></div>
@@ -323,9 +341,9 @@
         <div class="features">
             <div class="feature"><div class="feature-icon">⚡</div><p>تسليم سريع في أقل وقت ممكن</p></div>
             <div class="feature"><div class="feature-icon">🎯</div><p>دقة عالية وجودة لا تُضاهى</p></div>
-            <div class="feature"><div class="feature-icon">🔒</div><p>خصوصية تامة لبياناتكم </p></div>
+            <div class="feature"><div class="feature-icon">🔒</div><p>خصوصية تامة لبياناتكم</p></div>
             <div class="feature"><div class="feature-icon">💰</div><p>أسعار مناسبة تناسب الجميع </p></div>
-            <div class="feature"><div class="feature-icon">🌟</div><p>خبرة واسعة في الخدمات الالكترونية والأكاديمية</p></div>
+            <div class="feature"><div class="feature-icon">🌟</div><p> واخبرة واسعة في الخدمات الالكترونية والأكاديمية</p></div>
         </div>
     </section>
 
@@ -347,17 +365,40 @@
 
     <footer>
         <div class="footer-logo">NR <span>إنجاز</span></div>
+
+        <!-- رخصة العمل -->
+        <div class="license-badge">
+            🏛️ رخصة عمل رسمية &nbsp;|&nbsp; <strong>رقم الرخصة: FL-889538303</strong>
+        </div>
+
+        <!-- معلومات التواصل -->
         <div class="footer-info">
             <div class="footer-info-item"><strong>📞 رقم التواصل</strong><span>0573730447</span></div>
-            <div class="footer-info-item"><strong>✉️ البريد الإلكتروني</strong><span>info@enjaz-service.com</span></div>
-            <div class="footer-info-item"><strong>🌐 الموقع</strong><a href="http://enjaz-service.com" style="color:rgba(255,255,255,0.65);text-decoration:none;">https://enjaz-el.github.io/my-website/</a></div>
+            <div class="footer-info-item"><strong>✉️ البريد الإلكتروني</strong><span>enjaz.nr@gmail.com</span></div>
         </div>
-        <hr class="footer-divider">
-        <div class="footer-bottom">جميع الحقوق محفوظة لمنصة إنجاز &copy; 2026 &nbsp;|&nbsp; <a href="http://enjaz-service.com">enjaz-service.com</a></div>
-    </footer>
 
-</body>
-</html>
+        <!-- أيقونات السوشيال ميديا -->
+        <div class="footer-social">
+            <!-- واتساب -->
+            <a href="https://wa.me/966573730447" target="_blank" rel="noopener noreferrer" class="social-btn" style="background:#25D366; color:white;">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+                واتساب
+            </a>
+            <!-- X (تويتر) -->
+            <a href="https://x.com/enjaznr?s=21" target="_blank" rel="noopener noreferrer" class="social-btn x-btn">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="white"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                X (تويتر)
+            </a>
+            <!-- تيك توك -->
+            <a href="https://tiktok.com/@YOUR_USERNAME" target="_blank" rel="noopener noreferrer" class="social-btn tiktok-btn">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="white"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 0 0-.79-.05 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.33-6.34V8.69a8.18 8.18 0 0 0 4.78 1.52V6.75a4.85 4.85 0 0 1-1.01-.06z"/></svg>
+                تيك توك
+            </a>
+        </div>
+
+        <hr class="footer-divider">
+        <div class="footer-bottom">جميع الحقوق محفوظة لمنصة إنجاز &copy; 2026</div>
+    </footer>
 
 </body>
 </html>
